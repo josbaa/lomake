@@ -1,4 +1,4 @@
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-rows: 60px auto 60px;
     grid-template-columns: 100px auto;
@@ -10,7 +10,7 @@
     
 }
 
-.header{
+.header {
     display: flex;
     grid-area: header;
     flex-direction: row;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     grid-area: footer;
@@ -26,10 +26,51 @@
     justify-content: center;
 }
 
-.sidebar{
+.sidebar {
     grid-area: sidebar;
     background-color: lightyellow;
 }
-.main{
+
+.main {
     grid-area: main;
+}
+
+.card {
+    border-width: 2px;
+    border-color: blueviolet;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: burlywood;
+    display: grid;
+    grid-template-rows: 30px auto 30px;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "card-header card-header"
+        "card-main card-main" 
+        "card-left card-right";
+    align-items: center;
+}
+
+.card-header {
+    grid-area: card-header;
+    text-align: center;
+}
+
+.card-main {
+    grid-area: card-main;
+}
+
+.card-left {
+    grid-area: card-left;
+}
+
+.card-right {
+    grid-area: card-right;
+    justify-self: end;
+}
+
+.button {
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
 }
