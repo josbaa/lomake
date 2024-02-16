@@ -3,7 +3,7 @@
 .col-12,
 .col-sm-6,
 .col-lg-3 {
-    background-color: blueviolet;
+    background-color: rgb(160, 11, 140);
 }
 
 .grid-container {
@@ -18,15 +18,15 @@
     
 }
 
-.header {
+/*.header {
     display: flex;
     grid-area: header;
     flex-direction: row;
-    background-color: cornflowerblue;
+    background-color: rgb(77, 12, 188);
     justify-content: center;
 }
 
-.footer {
+/*.footer {
     display: flex;
     flex-direction: row;
     grid-area: footer;
@@ -34,16 +34,16 @@
     justify-content: center;
 }
 
-.sidebar {
+/*.sidebar {
     grid-area: sidebar;
     background-color: lightyellow;
 }
 
-.main {
+/*.main {
     grid-area: main;
 }
 
-.card {
+/*.card {
     border-width: 2px;
     border-color: blueviolet;
     border-radius: 20px;
@@ -59,31 +59,31 @@
     align-items: center;
 }
 
-.card-header {
+/*.card-header {
     grid-area: card-header;
     text-align: center;
 }
 
-.card-main {
+/*.card-main {
     grid-area: card-main;
 }
 
-.card-left {
+/*.card-left {
     grid-area: card-left;
 }
 
-.card-right {
+/*.card-right {
     grid-area: card-right;
     justify-self: end;
 }
 
-.button {
+/*.button {
     border-radius: 5px;
     width: 70px;
     height: 25px;
 }
 
-.main-container {
+/*.main-container {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -91,11 +91,11 @@
     justify-content: space-evenly;
 }
 
-.big-item{
+/*.big-item{
     width: 600px;
 }
 
-.item {
+/*.item {
     border: 2px;
     border-radius: 10px;
     border-color:darkorange;
