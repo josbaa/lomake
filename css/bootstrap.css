@@ -3,7 +3,7 @@
 .col-12,
 .col-sm-6,
 .col-lg-3 {
-    background-color: rgb(188, 188, 118);
+    background-color: rgb(195, 195, 58);
 }
 
 .grid-container {
@@ -24,13 +24,13 @@
     flex-direction: row;
     background-color: rgb(77, 12, 188);
     justify-content: center;
-}
+}*/
 
-/*.footer {
+.footer {
     display: flex;
     flex-direction: row;
     grid-area: footer;
-    background-color: limegreen;
+    background-color: rgb(182, 213, 69);
     justify-content: center;
 }
 
